@@ -1,5 +1,5 @@
 .playforfree{
-    background-image: url('/src/assets/main-wallpaper.jpg');
+    background-image: url('/assets/main-wallpaper.jpg');
     background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
     background-position: center; /* Centraliza a imagem no elemento */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
