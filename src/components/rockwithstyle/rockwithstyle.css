@@ -1,0 +1,56 @@
+.rockwithstyle{
+    background-image: url('/src/assets/mountain-pic.avif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: white;
+}
+
+.akali-rock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-rock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.text-rock h1{
+    font-size: 70px;
+}
+
+.text-rock button{
+    background-color: rgb(255, 212, 92);
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.text-rock button:hover{
+    border: solid 2px white;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .rockwithstyle{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 50px;
+    }
+
+    .akali-rock img{
+        width: 80%;
+    }
+
+    .text-rock button{
+        width: 80%;
+    }
+}

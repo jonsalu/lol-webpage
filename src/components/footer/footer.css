@@ -1,0 +1,105 @@
+.footer{
+    background-color: rgb(14, 14, 14);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+    list-style-type: none;
+}
+
+.social-icons li{
+    padding: 10px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.footer-links li{
+    padding: 10px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.indicativeclass{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.indicativecontainer{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: rgb(48, 48, 48);
+    width: 20%;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+.indicative-age{
+    height: 100%;
+    background-color: rgb(240, 204, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 20px;
+    border-radius: 8px;
+}
+
+.itcontains ul{
+    list-style-type: none;
+}
+
+.itcontains li{
+    font-size: 13px;
+    color: white;
+}
+
+@media (max-width: 658px) {
+    .footer-links ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .indicativeclass{
+        width: 100%;
+    }
+
+    .indicativecontainer{
+        width: 60%;
+    }
+}

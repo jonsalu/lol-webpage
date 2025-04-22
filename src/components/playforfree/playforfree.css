@@ -1,0 +1,36 @@
+.playforfree{
+    background-image: url('/src/assets/main-wallpaper.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem no elemento */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.downloadbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 180px;
+}
+
+.downloadbtn button{
+    background-color: rgb(255, 212, 92);
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.downloadbtn button:hover{
+    border: solid 2px white;
+    color: white;
+    cursor: pointer;
+}
