@@ -6,7 +6,7 @@ const PlayForFree = () =>{
         <div className="playforfree">
            
             <div className="downloadbtn">
-                <img src="/src/assets/logocontent.avif" alt="" />
+                <img src="/assets/logocontent.avif" alt="" />
                 <button>JOGUE DE GRAÇA</button>
                 
             </div>
