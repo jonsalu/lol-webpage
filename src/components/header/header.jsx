@@ -26,8 +26,8 @@ const Header = () => {
         <header>
             <div className="header">
                 <div className="parte1">
-                    <button id="riotlogo"><img src="/public/header-pics/logoo.png" alt="riot logo" /></button>
-                    <a href="#"><img src="/public/header-pics/pngwing.com.png" alt="inicio" /></a>
+                    <button id="riotlogo"><img src="/header-pics/logoo.png" alt="riot logo" /></button>
+                    <a href="#"><img src="/header-pics/pngwing.com.png" alt="inicio" /></a>
                     <ul className="navibar">
                         <li><a href="#">O JOGO</a></li>
                         <li><a href="#">CAMPEÕES</a></li>

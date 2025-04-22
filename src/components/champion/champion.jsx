@@ -37,43 +37,43 @@ const Champion = () =>{
                         <div className="champslide">
                             <h1>AKALI</h1>
                             <h2>A assassina renegada</h2>
-                            <img className="champic" src="/public/champion-pics/akali-champion.avif" alt="" />
-                            <img src="/public/champion-pics/assassin-pic.webp" alt="" />
+                            <img className="champic" src="/champion-pics/akali-champion.avif" alt="" />
+                            <img src="/champion-pics/assassin-pic.webp" alt="" />
                             <p>Assassino</p>
                         </div>
                         <div className="champslide">
                             <h1>YASUO</h1>
                             <h2>O imperdoável</h2>
-                            <img className="champic" src="/public/champion-pics/yasuo-champion.avif" alt="" />
-                            <img src="/public/champion-pics/lutadores-pic.avif" alt="" />
+                            <img className="champic" src="/champion-pics/yasuo-champion.avif" alt="" />
+                            <img src="/champion-pics/lutadores-pic.avif" alt="" />
                             <p>Lutador</p>
                         </div>
                         <div className="champslide">
                             <h1>LUX</h1>
                             <h2>A dama da luz</h2>
-                            <img className="champic" src="/public/champion-pics/lux-champion.avif" alt="" />
-                            <img src="/public/champion-pics/magos-pic.avif" alt="" />
+                            <img className="champic" src="/champion-pics/lux-champion.avif" alt="" />
+                            <img src="/champion-pics/magos-pic.avif" alt="" />
                             <p>Mago</p>
                         </div>
                         <div className="champslide">
                             <h1>JINX</h1>
                             <h2>O gatilho desenfreado</h2>
-                            <img className="champic" src="/public/champion-pics/jinx-champion.avif" alt="" />
-                            <img src="/public/champion-pics/adc-pic.avif" alt="" />
+                            <img className="champic" src="/champion-pics/jinx-champion.avif" alt="" />
+                            <img src="/champion-pics/adc-pic.avif" alt="" />
                             <p>Atirador</p>
                         </div>
                         <div className="champslide">
                             <h1>TRESH</h1>
                             <h2>O guardião das correntes</h2>
-                            <img className="champic" src="/public/champion-pics/tresh-champion.avif" alt="" />
-                            <img src="/public/champion-pics/sup-pic.avif" alt="" />
+                            <img className="champic" src="/champion-pics/tresh-champion.avif" alt="" />
+                            <img src="/champion-pics/sup-pic.avif" alt="" />
                             <p>Suporte</p>
                         </div>
                         <div className="champslide">
                             <h1>LEONA</h1>
                             <h2>A alvorada radiante</h2>
-                            <img className="champic" src="/public/champion-pics/leona-champion.avif" alt="" />
-                            <img src="/public/champion-pics/tanques-pic.avif" alt="" />
+                            <img className="champic" src="/champion-pics/leona-champion.avif" alt="" />
+                            <img src="/champion-pics/tanques-pic.avif" alt="" />
                             <p>Tanque</p>
                         </div>
                     </Slider>

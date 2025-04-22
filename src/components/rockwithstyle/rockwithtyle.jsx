@@ -5,7 +5,7 @@ const RockWithStyle = () =>{
     return(
         <div className="rockwithstyle">
             <div className="akali-rock">
-                <img src="/public/rock-pics/akali-rock.avif" alt="" />
+                <img src="/rock-pics/akali-rock.avif" alt="" />
             </div>
 
             <div className="text-rock">
